@@ -1,0 +1,36 @@
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 512px;
+    height: 512px;
+    margin: 30px;
+} 
+
+
+.square {
+    height: 30px;
+    width: 30px;
+    border: solid lightgrey 1px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 70px;
+    background-color: #588cd4;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+}
